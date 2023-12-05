@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "emmanuel.mayowa.m@gmail.com",
+		title: "web portfolio by Emmanuel",
+		name: "Emmanuel Moshood",
+		email: "emmanuelmoshood571@gmail.com",
 		logo: "../logo.png",
 	},
 

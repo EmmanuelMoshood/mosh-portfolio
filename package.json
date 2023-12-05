@@ -1,11 +1,11 @@
 {
-	"name": "reactfolio",
-	"version": "1.1.0",
-	"description": "Personal portfolio template built using Reactjs",
+	"name": "mosh-portfolio",
+	"version": "1.2.0",
+	"description": "Personal portfolio built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Emmanuel Moshood",
+		"email": "emmanuelmoshood571@gmail.com",
+		"url": "https://portfolio.emmanuelmoshood.com"
 	},
 	"license": "MIT",
 	"private": true,
@@ -19,6 +19,7 @@
 		"@testing-library/react": "^13.4.0",
 		"@testing-library/user-event": "^13.5.0",
 		"boto3": "^0.0.1",
+		"gh-pages": "^6.1.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-ga4": "^2.1.0",
@@ -29,6 +30,7 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
