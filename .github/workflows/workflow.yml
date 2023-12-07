@@ -5,7 +5,7 @@ name: React CI
 on:
   push:
     branches:
-      - "development"
+      - development
 
 jobs:
   build:
