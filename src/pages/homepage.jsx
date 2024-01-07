@@ -4,24 +4,26 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
+	// faTwitter,
 	faGithub,
-	faStackOverflow,
-	faInstagram,
+	// faStackOverflow,
+	// faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
+// import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+// import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+// import Skills from "../components/projects/skills";
+
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -103,18 +105,18 @@ const Homepage = () => {
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
-										<img
+										{/* <img
 											src="homepage.jpg"
 											alt="about"
 											className="homepage-image"
-										/>
+										/> */}
 									</div>
 								</div>
 							</div>
 						</div>
 
 						<div className="homepage-socials">
-							<a
+							{/* <a
 								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
@@ -123,7 +125,7 @@ const Homepage = () => {
 									icon={faTwitter}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -134,7 +136,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
+							{/* <a
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
@@ -153,7 +155,7 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -172,7 +174,7 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
+								{/* {myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
 										key={(index + 1).toString()}
@@ -185,7 +187,9 @@ const Homepage = () => {
 											link={"/article/" + (index + 1)}
 										/>
 									</div>
-								))}
+								))} */}
+
+								{/* <Skills /> */}
 							</div>
 
 							<div className="homepage-works">

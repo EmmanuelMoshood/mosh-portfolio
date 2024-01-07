@@ -15,8 +15,8 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src="./clay.png"
+								alt="clay"
 								className="work-image"
 							/>
 							<div className="work-title">Clay - Home Builder Software</div>
@@ -28,8 +28,8 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./twitter.png"
-								alt="twitter"
+								src="./xfusion.png"
+								alt="xfusion"
 								className="work-image"
 							/>
 							<div className="work-title">xFusionCorp</div>
@@ -47,7 +47,7 @@ const Works = () => {
 							/>
 							<div className="work-title">CrasHive Experience</div>
 							<div className="work-subtitle">
-							DevOps Engineer
+							Cloud Engineer
 							</div>
 							<div className="work-duration">2017 - 2019</div>
 						</div>

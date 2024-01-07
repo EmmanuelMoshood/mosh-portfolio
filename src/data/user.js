@@ -16,67 +16,89 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Cloud Devops Engineer, and a result oriented IT specialist.",
+		title: "Emmanuel Moshood",
 		description:
-			"As a devops engineer with expertise in demonstrated history working in IT and skilled in configuting and managing automated CI/CD pipeplines. I have experience in building scalable, secure and reliable web applications using native cloud technologies. I enjoy solving complex problems and learning new skills. My skills include: Terraform, Jenkins, UNIX/Linux, PowerShell, AWS, Azure DevOps, GitHub actions, GitHub, Kubernetes, AWS Services (CloudFormation, EC2, ECS, S3, Route 53, VPC, ELB, EFS, Transit Gateways, SSM) Nginx, Sonarqube, Docker, Tomcat, etc.",
+			"Hi, I’m Emmanuel! It is nice to meet you. As a cloud engineer with over 5 years of experience in the IT Industry and full-stack software development, I am  skilled in building scalable, secure and reliable applications using native cloud technologies. I also have background in creating visually stunning, user-friendly web experiences using the latest front-end technologies.",
 	},
 
 	about: {
-		title: "With a career spanning over 5 years, Emmanuel has worked on a number of projects",
+		title: "I enjoy learning new tech and sharing my knowledge with others.",
 		description:
 			"Emmmanuel's background includes working on Cloud Native Technology, Infrastructure as code, Continuous Integration/Continous Delivery pipelines, Microservices and Containerizing Multi-Tier Application using Devops/SRE best Practices.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "I'm passionate about pushing the boundaries.",
 		description:
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Kanban Task Management Web App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Streamline tasks with Kanban's clarity, Real-time collaboration for enhanced productivity.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/EmmanuelMoshood/kanban-task-management-web-app/tree/development",
+			image: "kanban-task-management-web-app.jpg",
 		},
 
 		{
-			title: "Project 3",
+			title: "Friendly Flow Chat App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Chat app build using socket.io to support real time two ways messaging functionality.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://jade-nougat-c255a3.netlify.app/",
+			image: "friendly.jpeg",
 		},
 
 		{
-			title: "Project 4",
+			title: "Mojizuku Ltd Web App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A full stack web application for a construction company using Angular and Node.js",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://mojizuku.com/",
+			image: "mojizuku.png",
 		},
 
 		{
-			title: "Project 5",
+			title: "CI/CD architecture for a scalable and secure 3-tier Node app on AWS",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Provisioned a cloud-based infrastructure using Terraform for supporting the deployment of a custom node-based product by the Application Engineering team.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/EmmanuelMoshood/3-tier-node-app-on-aws",
+			image: "3-tier architecture .jpg",
+		},
+		{
+			title: "Video Streaming Service",
+			description:
+				"Streaming videos with AWS services to ensure low latency and high availability.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://frabjous-creponne-848c28.netlify.app/",
+			image: "video-streaming.png",
+		},
+		{
+			title: "portfolio.v1",
+			description:
+				"An old portfolio built with JavaScript ES6, HTML and CSS .",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://stupendous-cobbler-5f3a5e.netlify.app/",
+			image: "portfolio-v1.jpg",
+		},
+		{
+			title: "portfolio.v2",
+			description:
+				"My current portfolio built with React, Material UI. Globally and securely served using CloudFront, Route53 and AWS S3 bucket",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "#",
+			image: "portfolio.v2.jpg",
 		},
 	],
 };

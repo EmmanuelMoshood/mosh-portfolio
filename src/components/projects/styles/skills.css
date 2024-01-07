@@ -1,0 +1,8 @@
+.has-text-centered {
+	text-align: center !important;
+}
+.columns is-centered {
+	background-color: #000000;
+	height: 100%;
+	width: 100%;
+}

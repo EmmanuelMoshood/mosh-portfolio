@@ -39,8 +39,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+						“Art is the elimination of the unnecessary.” – Pablo Picasso
 						</div>
 
 						<div className="subtitle projects-subtitle">

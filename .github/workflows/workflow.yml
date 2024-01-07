@@ -1,43 +1,25 @@
-
-
-name: React CI
+name: Upload File to S3
 
 on:
   push:
     branches:
       - development
-env:
-  AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
-  SOURCE_DIR: 'build'      # optional: defaults to entire repository
 
 jobs:
-  build:
+  upload:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
-    
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ env.AWS_REGION }} 
-      - run: npm install
-      - run: npm run build
-      # - run: npm test ##
-      - uses: jakejarvis/s3-sync-action@master
-        with:
-          args: --acl public-read --follow-symlinks --delete
-        # env:
-        #   AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        #   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        #   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        #   AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
-        #   SOURCE_DIR: 'build'      # optional: defaults to entire repository
+          aws-region: 'us-east-1'  # Replace with your desired region
+
+      - name: Upload file to S3
+        run: |
+          aws s3 cp ${{ github.workspace }}/path/to/your/file.txt s3://your-s3-bucket/path/in/s3/

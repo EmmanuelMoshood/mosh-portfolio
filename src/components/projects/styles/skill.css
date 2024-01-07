@@ -1,0 +1,35 @@
+.column {
+	border-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 30px;
+}
+
+.column ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.column ul > li {
+	list-style: none;
+	margin-top: 0.5em;
+	align-items: center;
+	text-align: center;
+}
+
+.column p.list-title {
+	margin-top: 50px;
+	margin-bottom: 8px;
+	color: var(--link-color);
+	font-weight: bold;
+}
+
+.column .title,
+p {
+	text-align: center;
+	margin: 0;
+}
