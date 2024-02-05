@@ -19,37 +19,37 @@ const Works = () => {
 								alt="clay"
 								className="work-image"
 							/>
-							<div className="work-title">Clay - Home Builder Software</div>
-							<div className="work-subtitle">
-							DevOps Engineer
+							<div className="work-title">
+								Clay - Home Builder Software
 							</div>
+							<div className="work-subtitle">DevOps Engineer</div>
 							<div className="work-duration">2021 - Present</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./xfusion.png"
-								alt="xfusion"
+								src="./menaget.png"
+								alt="menaget logo"
 								className="work-image"
 							/>
-							<div className="work-title">xFusionCorp</div>
+							<div className="work-title">Menaget Inc.</div>
 							<div className="work-subtitle">
-							DevOps Engineer
+								Cloud Administrator
 							</div>
-							<div className="work-duration">2020 - 2021</div>
+							<div className="work-duration">2019 - 2021</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./crashive_logo.jpg"
+								src="./hotels_ng_logo.jpeg"
 								alt="twitter"
 								className="work-image"
 							/>
-							<div className="work-title">CrasHive Experience</div>
+							<div className="work-title">Hotels.ng</div>
 							<div className="work-subtitle">
-							Cloud Engineer
+								Backend Developer (Intern)
 							</div>
-							<div className="work-duration">2017 - 2019</div>
+							<div className="work-duration">2018 - 2019</div>
 						</div>
 					</div>
 				}
