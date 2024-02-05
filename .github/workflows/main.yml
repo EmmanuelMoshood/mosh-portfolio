@@ -19,13 +19,9 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: 'us-east-1'  # Replace with your desired region
 
       - name: Upload file to S3
-        run: |
-          aws s3 cp ${{ github.workspace }}/path/to/your/file.txt s3://your-s3-bucket/path/in/s3/
+        run: bash deploy-script.sh
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
