@@ -9,7 +9,7 @@ const INFO = {
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/EmmanuelMoshood",
-		linkedin: "https://linkedin.com/",
+		linkedin: "https://www.linkedin.com/in/emmanuel-moshood-943094111/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
