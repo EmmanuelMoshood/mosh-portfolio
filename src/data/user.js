@@ -12,7 +12,7 @@ const INFO = {
 		linkedin: "https://www.linkedin.com/in/emmanuel-moshood-943094111/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		facebook: "#",
 	},
 
 	homepage: {
